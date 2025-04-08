@@ -1,0 +1,94 @@
+body {
+      font-family: "Poppins", sans-serif;
+      background-color: #8dc8e6;    
+      background: linear-gradient(90deg, rgb(58, 47, 251) 0%, rgb(94, 116, 255) 35%, rgba(0,212,255,1) 100%);
+    }
+
+h1{
+  text-align: center;
+  font-size: 100px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display:inline-block;
+  margin-top: 40px; 
+  color: #ffffff;
+  text-shadow: 10px 10px 10px #000000;
+}
+
+.wrapper { /*posizione del modulo*/
+  margin-top:40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+}
+
+.difficolta{
+  display: flex;
+  align-items: center;
+  flex-direction: row; 
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+
+  color: white;
+}
+
+.skin{
+  margin-left: 10px;
+  margin-right:10px;
+}
+
+hr{
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 45px;
+}
+
+.righe{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 40px;
+  }
+
+  .negozio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .a { /*modifica i link*/
+    color: #ffffff;
+    display:inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    transition: transform .2s;
+
+  }
+
+  .a:hover{
+    transform: scale(1.3);
+    border-bottom: 3px solid rgb(163, 234, 255);
+  }
+
+  img{
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top:0px;
+  }
+
+  p{
+    margin-top:0px;
+    margin-bottom: 20px;
+    color:white;
+    line-height: 0px;
+    font-size: 30px;
+    text-shadow: 1px 10px 10px #000000;
+  }  

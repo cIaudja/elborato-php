@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+  
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+  border: 4px solid black;
+}
+
+
+h1 { 
+  text-align: center;
+  font-size: 100px;
+  text-shadow: 2px 4px 50px #000000;
+  text-transform: uppercase;
+  display:inline-block;
+  margin: 40px 8px 10px 8px; 
+  color: #ffffff;
+  border-bottom: 4px solid #5fbae9;
+}
+
+.titoletto{
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+  justify-content: center;
+  font-size:60px;
+  text-shadow: 2px 4px 50px #bbf1ff;
+  text-transform: uppercase;
+  display:inline-block;
+  margin-bottom: 20px; 
+  margin-top: 40px;
+  color: #0c76af;
+  border-left: 4px solid #5fbae9;
+  border-right: 4px solid #5fbae9;
+}
+
+.centro{
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+}
+
+h3 {
+  text-align: center;
+  justify-content: center;
+  font-size:60px;
+  text-shadow: 2px 4px 50px #bbf1ff;
+  text-transform: uppercase;
+  display:inline-block;
+  margin-bottom: 20px; 
+  margin-top: 40px;
+  color: #000000;
+}
+
+
+.sfondo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("Immagini/panoramica.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.testosuimg {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.contenitore {
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  position: relative;
+}
+
+.fotoscorrim, .fotoscorrimento {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  padding: 10px;
+}
+
+.next {
+  right: 375px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev{
+  left: 375px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.testo {
+  color: #000000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: sticky;
+  width: 500px;
+  text-align: center;
+  background-color: #5fbae9;
+}
+
+.dissolvi {
+  animation-name: dissolvi;
+  animation-duration: 1.5s;
+}
+
+@keyframes dissolvi {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type=button], input[type=submit], input[type=reset]  {
+  background-color: #56baed;
+  border: none;
+  color: white;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  border-radius: 5px 5px 5px 5px;
+  margin: 10px 20px 5px 20px;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+  background-color: #39ace7;
+}
+.vicini{
+  margin-top: 40px;
+  margin-bottom: 30px;
+  justify-content: center;
+  display:flex;
+  flex-direction: row;
+}

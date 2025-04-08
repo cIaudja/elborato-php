@@ -1,0 +1,76 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #8dc8e6;
+  }
+
+#dueuno, #duedue, #duetre, #duequattro{
+    display: none;
+}
+
+#treuno, #tredue, #tretre, #trequattro, #trecinque, #tresei, #tresette, #treotto{
+    display: none;
+}
+
+#camp1, #camp2, #camp3, #camp4, #camp5, #camp6, #camp7, #camp8, #camp9, #camp10, #camp11, #camp12, #camp13, #camp14, #camp15, #camp16, #camp17, #camp18, #camp19, #camp20, #camp21, #camp22, #camp23, #camp24{
+    display: none;
+}
+
+
+
+p { 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display:inline-block;
+    margin: 18px 8px 10px 8px; 
+    color: #0d0d0d;
+  }
+
+  button{
+    background-color: #56baed;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    box-shadow: 0 10px 30px 10 rgba(95,186,233,0.4);
+    border-radius: 5px 5px 5px 15px;
+    margin: 10px 20px 5px 20px;
+    width: 500px;
+  }
+
+  button:hover{
+    background-color: #39ace7;
+  }
+
+  a { 
+    color: #3178b7;
+    border-radius: 5px 5px 5px 15px;
+    margin: 10px 20px 5px 20px;
+    text-decoration: none;
+    font-weight: 400;
+    background-color: azure;
+    padding: 15px 80px;
+    box-shadow: 0 10px 30px 10 rgba(95,186,233,0.4);
+  }
+
+  a:hover{
+    background-color: rgb(205, 255, 255);
+  }
+
+  div.divisione div{
+    float: right;
+    width: 45%;
+    width: 49%;
+    width: 45%;
+    padding: 0 2%
+    }
+
+div.clearer{
+    float: none; clear: left
+    }

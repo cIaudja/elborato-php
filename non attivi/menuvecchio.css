@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 900px) { /*quando lo schermo diventa piu piccolo di 1200px */
+  .topnav a:not(:first-child) {display: none;}
+}
+
+.topnav {
+  background-color: rgb(143, 86, 86); /*colore di sfondo della topnav*/
+  overflow: hidden; /*se il testo è più lungo dello spazio, allora nascondilo*/
+  position: fixed; /*rimane fermo anche se la pagina scorre*/
+  width: 100%; /*grande come tutto lo schermo*/
+  top:0%;
+
+}
+
+.topnav a {
+  float: left; /*vanno a destra*/
+  color: white; /*colore delle scritte*/
+  text-align: center; /*il testo è allineato al centro del loro spazio*/
+  padding: 22px 24px; /*grandezza dello spazio*/
+  font-size: 15px; /*grandezza delle scritte*/
+  text-decoration: none; /*toglie la linea sotto al link*/
+  text-transform: uppercase; /*testo tutto maiuscolo*/  
+  letter-spacing: 2px; /*distanza tra una lettera e un'altra*/
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*font della scritta*/
+}
+  
+.topnav a:hover{
+  background-color: rgb(187, 162, 162);
+  border-radius: 20px;
+}

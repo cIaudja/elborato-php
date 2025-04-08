@@ -1,0 +1,93 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #8dc8e6;    
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(135, 187, 255) 35%, rgb(58, 47, 251) 100%);
+    height: 100vh;
+  }
+
+h1{
+text-align: center;
+font-size: 100px;
+font-weight: 600;
+text-transform: uppercase;
+display:inline-block;
+margin-top: 40px; 
+color: #ffffff;
+text-shadow: 10px 10px 10px #000000;
+}
+
+.wrapper { /*posizione del modulo*/
+margin-top:80px;
+display: flex;
+align-items: left;
+flex-direction: column; 
+justify-content: left;
+width: 100%;
+min-height: 100%;
+padding: 20px;
+}
+
+.righe{
+display: flex;
+flex-direction: row;
+justify-content: left;
+margin-bottom: 40px;
+}
+
+
+
+img{
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top:0px;
+}
+
+p{
+  margin-top:0px;
+  margin-bottom: 0px;
+  color:white;
+  line-height: 0px;
+  font-size: 30px;
+  text-shadow: 1px 10px 10px #000000;
+}  
+
+  input[type=submit]{
+  background-color: #56baed;
+  border: none;
+  color: white;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  border-radius: 5px 5px 5px 5px;
+  margin: 0px 20px 5px 20px;
+  border: solid grey 1px;
+}
+
+input[type=submit]:hover{
+  background-color: #39ace7;
+}
+
+
+.contenitore{
+    margin-top: 50px;
+    position: fixed;
+    padding: 10px 48px;
+    z-index: 1;
+    background-color: #272727;
+    overflow: hidden;
+    right: 0px;
+}
+
+  .moneteuser {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    color: #f6f4e6;
+    font-size: 1.2em;
+    text-transform: lowercase;
+    font-weight: 500;
+    display: inline-block;
+  }

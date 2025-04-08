@@ -1,0 +1,150 @@
+html {
+    background-image: url(Immagini/bgmonete.jpg);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 90vh;
+}
+
+  h2 { /*modifica sing in/sing up*/
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display:inline-block;
+    margin: 40px 8px 10px 8px; 
+    color: #0d0d0d;
+    border-bottom: 2px solid #5fbae9;
+  }
+  
+  /* STRUCTURE */
+  
+  .wrapper { /*posizione del modulo*/
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+  }
+  
+  #formContent {/*lo sfondo del modulo e le scritte*/
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    padding: 30px;
+    width: 90%;
+    max-width: 520px;
+    position: relative;
+    padding: 0px;
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+  }
+  
+  #formFooter { /*il footer del modulo*/
+    background-color: #f6f6f6;
+    border-top: 1px solid #dce8f1;
+    padding: 25px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+
+  input[type=button], input[type=submit], input[type=reset]  {
+    background-color: #56baed;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    border-radius: 5px 5px 5px 5px;
+    margin: 10px 20px 5px 20px;
+  }
+  
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+    background-color: #39ace7;
+  }
+  
+  input[type=text],input[type=password]{
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 85%;
+    border: 2px solid #f6f6f6;
+    border-radius: 5px 5px 5px 5px;
+  }
+  
+  input[type=text]:focus,input[type=password]:focus {
+    background-color: #fff;
+    border-bottom: 2px solid #5fbae9;
+  }
+  
+  .scelta{
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    padding: 10px 10px;
+    width: 160px;
+    position: relative;
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: 2px solid #9c9c9c;
+    }
+ 
+    .contenitore{
+      margin-top: 50px;
+      position: fixed;
+      padding: 10px 48px;
+      z-index: 1;
+      background-color: #272727;
+      overflow: hidden;
+      right: 0px;
+  }
+  
+    .moneteuser {
+      font-family: "Montserrat", sans-serif;
+      width: 100%;
+      color: #f6f4e6;
+      font-size: 1.2em;
+      text-transform: lowercase;
+      font-weight: 500;
+      display: inline-block;
+    }
+  
+.fila{
+  display:flex;
+  flex-direction: row;
+}
+
+h1 { 
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 10px 10px 150px #000000;
+  text-transform: uppercase;
+  display:inline-block;
+  margin: 80px 8px 40px 8px; 
+  color: #ffffff;
+}
