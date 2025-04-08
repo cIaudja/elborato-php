@@ -30,5 +30,7 @@ Questo ti permetterà di vedere il sito web in locale.
   http://localhost/phpmyadmin
   ```
 - Qui puoi visualizzare e gestire il database.
+- 
 
-**Nota:** Non è possibile caricare il progetto completo su GitHub a causa delle dimensioni. Se hai bisogno del progetto completo, contattami in privato.
+**Nota sulle immagini:** A causa della dimensione elevata, le immagini non sono state caricate nel progetto. Se desideri visualizzarle, sono disponibili nella versione completa del progetto.
+
